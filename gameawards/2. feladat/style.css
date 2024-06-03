@@ -1,0 +1,99 @@
+nav{
+    background-color: #142BF5;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+h1{
+    color: #142BF5;
+    text-shadow: 1px 1px gray;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+}
+#gyoztesimg{
+    width: 100%;
+}
+
+body{
+    background-image: url(hatter.jpg);
+    background-repeat: repeat-y repeat-x;
+}
+
+section{
+    border-top: 1px double black;
+    padding: 10px 0px;
+}
+
+.info{
+    background-image:url(cardbackground.jpg);
+    border: 2px solid black;
+}
+
+table{
+    margin: auto;
+    
+}
+  
+td{
+    padding: 2px 16px 2px;
+    border: 1px solid blue;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+td:first-child{
+    font-weight: bold;
+}
+
+td:last-child{
+    font-style: italic;
+}
+
+tr:last-child{
+    text-align: center;
+}
+
+li{
+    margin: 10px;
+}                                        
+
+.felsorolas{
+    padding: 10px;
+}
+
+.felsorolas dt{
+    float: left;
+
+}
+
+.lablec{
+    background-color: #142BF5;
+
+
+}
+
+table td{
+    border: 1px solid #142BF5;
+}
+
+th{
+    
+    background: #142BF5;
+    text-align: center;
+    color: white;
+}
+.lablec a{
+    color: white;
+    font-weight: bold;
+}
+
+.lablec a:hover{
+    color: rgb(184, 134, 11);
+    text-decoration: none;
+}
+
+

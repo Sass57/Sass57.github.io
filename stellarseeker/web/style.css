@@ -1,0 +1,167 @@
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    background: #232323;
+    color: white;
+}
+
+.container, .container-fluid{
+    padding: 0;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h1, h2, h3, .eyebrow{
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 3rem;
+    }
+
+    .container{
+        padding: 20px;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}
+
+.eyebrow{
+    letter-spacing: 5px;
+    color: orange;
+    font-weight: bold;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+nav{
+    position: absolute !important;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 99;
+    top: 20px;
+    border-radius: 5px;
+    padding: 10px !important;
+
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    filter: invert();
+}
+
+img{
+    max-width: 100%;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(image/herobg.jpg);
+    background-size: cover;
+    min-height: 80%;
+    
+
+}
+
+#hero .row>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero p{
+    max-width: 500px;
+}
+
+#results{
+    text-align: center;
+    padding: 50px 0px;
+    background: black;
+}
+
+#about{
+    background-image: url('image/spaceship.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 100px;
+    
+}
+
+#contact{
+    padding: 100px 0px;
+    background-image: url("image/contact.jpg");
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input,
+#contact form textarea
+{
+    background: rgba(255, 255, 255, 0.2);
+    border: 3px solid white;
+}
+
+#contact form label{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#contact form input[type="submit"]{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#helmet-img{
+    max-height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.navbar a:hover{
+    color: orange;
+}
+
+#results h5{
+    color: #ffffff83;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
